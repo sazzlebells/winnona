@@ -130,7 +130,7 @@ class PageWidget1 extends StatelessWidget {
           ConstrainedBox(
               constraints: BoxConstraints(
                   maxHeight: screenh * 0.6, maxWidth: screenw / 2),
-              child: Image.asset('../assets/img/pesawat1.png')),
+              child: Image.network('https://i.ibb.co/jgM6z15/pesawat1.png')),
           ConstrainedBox(
             constraints: BoxConstraints(maxWidth: screenw * 0.5),
             child: Column(
@@ -179,7 +179,7 @@ class PageWidget2 extends StatelessWidget {
           ConstrainedBox(
               constraints: BoxConstraints(
                   maxHeight: screenh * 0.6, maxWidth: screenw / 2),
-              child: Image.asset('../assets/img/pesawat2.png')),
+              child: Image.network('https://i.ibb.co/ZYRm97K/pesawat2.png')),
           ConstrainedBox(
             constraints: BoxConstraints(maxWidth: screenw * 0.5),
             child: Column(
@@ -228,7 +228,7 @@ class PageWidget3 extends StatelessWidget {
           ConstrainedBox(
               constraints: BoxConstraints(
                   maxHeight: screenh * 0.6, maxWidth: screenw / 2),
-              child: Image.asset('../assets/img/pesawat3.png')),
+              child: Image.network('https://i.ibb.co/ZdVYfvF/pesawat3.png')),
           ConstrainedBox(
             constraints: BoxConstraints(maxWidth: screenw * 0.5),
             child: Column(
@@ -277,7 +277,7 @@ class PageWidget4 extends StatelessWidget {
           ConstrainedBox(
               constraints: BoxConstraints(
                   maxHeight: screenh * 0.6, maxWidth: screenw / 2),
-              child: Image.asset('../assets/img/app1_2.png')),
+              child: Image.network('https://scontent.ftkg1-1.fna.fbcdn.net/v/t1.0-9/100073856_2633019056802711_4905269019046576128_o.jpg?_nc_cat=106&_nc_sid=0debeb&_nc_eui2=AeHvOdlgRfkpmeTb3e5Up18vBgvi-gexhMoGC-L6B7GEytv4pKGRCqVtQ3makkVN-aZT-kID-4guKbgNt9jbvcNl&_nc_oc=AQn9XxKvZpn1hPCizFh2U7P_E6W6-An7wNJy2xvX0qJhUOPVPAZGmxZ-hdL47SeJS04&_nc_ht=scontent.ftkg1-1.fna&oh=adf4005e24f7c75fee1d77330472f09d&oe=5EF0B2D0')),
           ConstrainedBox(
             constraints: BoxConstraints(maxWidth: screenw * 0.5),
             child: Column(
@@ -326,7 +326,7 @@ class PageWidget5 extends StatelessWidget {
           ConstrainedBox(
               constraints: BoxConstraints(
                   maxHeight: screenh * 0.6, maxWidth: screenw / 2),
-              child: Image.asset('../assets/img/app2_2.png')),
+              child: Image.network('https://scontent.ftkg1-1.fna.fbcdn.net/v/t1.0-9/97809765_2633018950136055_1259988154463551488_o.jpg?_nc_cat=105&_nc_sid=0debeb&_nc_eui2=AeH-hzAzGQscMBBQU8FqixilvMqQu3orhH28ypC7eiuEfcXPBkQarKdg9ikro0UvRcjJ21dYbOzInPoZo0__lKjF&_nc_oc=AQmJsJc5y1EdkFN6XBnfZdNnvYtF9nF38JyIXiPYWMIxBPzFi1f0goxnwmfJC87ylNM&_nc_ht=scontent.ftkg1-1.fna&oh=546b3e94dc0685997f66e24d8ee6cf2e&oe=5EED223B')),
           ConstrainedBox(
             constraints: BoxConstraints(maxWidth: screenw * 0.5),
             child: Column(
