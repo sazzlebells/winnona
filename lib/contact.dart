@@ -28,7 +28,7 @@ Future<void> contactPopup(BuildContext context) async {
                   RaisedButton.icon(
                     onPressed: () {html.window.open('https://mail.google.com/mail/u/0/#inbox?compose=VpCqJVFvszSlnHKhnJfrvPsPjstRkvRlhhcKqfcPmdfhMPfPpkrVmZBrBBRxcxlbSmMRGwQ', '');},
                     elevation: 0,
-                    icon: Image.asset('../assets/logo/gmail.png', width: 50),
+                    icon: Image.network('https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png', width: 50),
                     label: Text(
                       "Gmail",
                       style: TextStyle(color: Colors.black87),
@@ -42,7 +42,7 @@ Future<void> contactPopup(BuildContext context) async {
                   RaisedButton.icon(
                     onPressed: () {html.window.open("https://www.linkedin.com/in/winnona-sarah-gultom-44a674146/", "");},
                     elevation: 0,
-                    icon: Image.asset('../assets/logo/linkedin.png', width: 50),
+                    icon: Image.network('https://lh3.googleusercontent.com/proxy/XMsgc1svIrxYu5tZpmC9KmTNW7nxtCxd83lokMZosNtdbLavahJpYbhRM1LgfD0TYe7zcfsOwbIe4xmoq6LJGw', width: 50),
                     label: Text(
                       "LinkedIn",
                       style: TextStyle(color: Colors.black87),
@@ -56,7 +56,7 @@ Future<void> contactPopup(BuildContext context) async {
                   RaisedButton.icon(
                     onPressed: () {html.window.open("https://github.com/sazzlebells","");},
                     elevation: 0,
-                    icon: Image.asset('../assets/logo/github.png', width: 50),
+                    icon: Image.network('http://pngimg.com/uploads/github/github_PNG45.png', width: 50),
                     label: Text(
                       "Github",
                       style: TextStyle(color: Colors.black87),
@@ -70,7 +70,7 @@ Future<void> contactPopup(BuildContext context) async {
                   RaisedButton.icon(
                     onPressed: () {html.window.open("https://www.instagram.com/sazzlebells","");},
                     elevation: 0,
-                    icon: Image.asset('../assets/logo/insta.png', width: 50),
+                    icon: Image.network('https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png', width: 50),
                     label: Text(
                       "Instagram",
                       style: TextStyle(color: Colors.black87),
