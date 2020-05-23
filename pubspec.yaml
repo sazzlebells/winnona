@@ -70,7 +70,7 @@ flutter:
   #         style: italic
     - family: TW Cen
       fonts:
-        - asset: assets/fonts/TWCen.ttf
+        - asset: assets/fonts/TWCen.TTF
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
