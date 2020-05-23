@@ -87,8 +87,8 @@ class _ProfilePageState extends State<ProfilePage> {
           children: <Widget>[
             Row(
               children: <Widget>[
-                Image.asset(
-                  '../assets/img/pic.png',
+                Image.network(
+                  'https://i.ibb.co/R7bwgFj/pic.png',
                   width: t_width < 500 ? t_width * 2 : t_width / 3,
                 ),
                 SizedBox(width: 20),
