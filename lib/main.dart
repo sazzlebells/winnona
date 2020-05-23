@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Center(
             child: Container(
               margin: EdgeInsets.all(40),
-              child: Image.asset('../assets/img/name.png'),
+              child: Image.network('https://drive.google.com/open?id=1mKoZZE5rjXcIqY9L3gZdj4GL1s0G27WD'),
             ),
           ),
           WavePaint(),
