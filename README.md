@@ -1,6 +1,7 @@
 # winnona_cv
 
-A new Flutter project.
+A new Flutter project for self CV Website.
+Please open link to see website: https://sazzlebells.github.io/winnona
 
 ## Getting Started
 
