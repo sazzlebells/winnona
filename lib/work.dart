@@ -276,7 +276,7 @@ class PageWidget4 extends StatelessWidget {
         children: <Widget>[
           ConstrainedBox(
               constraints: BoxConstraints(
-                  maxHeight: screenh * 0.6, maxWidth: screenw / 2),
+                  maxHeight: screenh * 0.6, maxWidth: screenw / 3),
               child: Image.network('https://i.ibb.co/7gkzgYY/exits.png')),
           ConstrainedBox(
             constraints: BoxConstraints(maxWidth: screenw * 0.5),
@@ -292,7 +292,7 @@ class PageWidget4 extends StatelessWidget {
                 ),
                 Container(
                   margin: EdgeInsets.all(20),
-                  constraints: BoxConstraints(maxWidth: screenw / 2),
+                  constraints: BoxConstraints(maxWidth: screenw / 3),
                   child: Text(
                     "Final Projects of Mobile Programming class at college. Build in 2019 with Android Studio. I contributed on the front end. It's an application for online discussion forum about exams, quizzes, and college task for ITS students.",
                     textAlign: TextAlign.justify,
