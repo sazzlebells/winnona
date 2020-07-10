@@ -88,7 +88,7 @@ class _ProfilePageState extends State<ProfilePage> {
             Row(
               children: <Widget>[
                 Image.network(
-                  'https://i.ibb.co/R7bwgFj/pic.png',
+                  'https://i.ibb.co/0YtgZbn/pic.png',
                   width: t_width < 500 ? t_width * 2 : t_width / 3,
                 ),
                 SizedBox(width: 20),
