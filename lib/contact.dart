@@ -42,7 +42,7 @@ Future<void> contactPopup(BuildContext context) async {
                   RaisedButton.icon(
                     onPressed: () {html.window.open("https://www.linkedin.com/in/winnona-sarah-gultom-44a674146/", "");},
                     elevation: 0,
-                    icon: Image.network('https://lh3.googleusercontent.com/proxy/XMsgc1svIrxYu5tZpmC9KmTNW7nxtCxd83lokMZosNtdbLavahJpYbhRM1LgfD0TYe7zcfsOwbIe4xmoq6LJGw', width: 50),
+                    icon: Image.network('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png', width: 50),
                     label: Text(
                       "LinkedIn",
                       style: TextStyle(color: Colors.black87),
