@@ -325,7 +325,7 @@ class PageWidget5 extends StatelessWidget {
         children: <Widget>[
           ConstrainedBox(
               constraints: BoxConstraints(
-                  maxHeight: screenh * 0.6, maxWidth: screenw / 2),
+                  maxHeight: screenh * 0.6, maxWidth: screenw / 3),
               child: Image.network('https://i.ibb.co/p1bShMY/caloria.png')),
           ConstrainedBox(
             constraints: BoxConstraints(maxWidth: screenw * 0.5),
